@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4581EB7B184845790048CAB0"
-               BuildableName = "ZSSRichTextEditor.app"
+               BlueprintIdentifier = "574D4A5520CE1FF1007ED5F5"
+               BuildableName = "ZSSRichTextEditor.framework"
                BlueprintName = "ZSSRichTextEditor"
                ReferencedContainer = "container:ZSSRichTextEditor.xcodeproj">
             </BuildableReference>
@@ -28,12 +28,22 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "574D4A5E20CE1FF1007ED5F5"
+               BuildableName = "ZSSRichTextEditorTests.xctest"
+               BlueprintName = "ZSSRichTextEditorTests"
+               ReferencedContainer = "container:ZSSRichTextEditor.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4581EB7B184845790048CAB0"
-            BuildableName = "ZSSRichTextEditor.app"
+            BlueprintIdentifier = "574D4A5520CE1FF1007ED5F5"
+            BuildableName = "ZSSRichTextEditor.framework"
             BlueprintName = "ZSSRichTextEditor"
             ReferencedContainer = "container:ZSSRichTextEditor.xcodeproj">
          </BuildableReference>
@@ -42,7 +52,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -51,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4581EB7B184845790048CAB0"
-            BuildableName = "ZSSRichTextEditor.app"
+            BlueprintIdentifier = "574D4A5520CE1FF1007ED5F5"
+            BuildableName = "ZSSRichTextEditor.framework"
             BlueprintName = "ZSSRichTextEditor"
             ReferencedContainer = "container:ZSSRichTextEditor.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4581EB7B184845790048CAB0"
-            BuildableName = "ZSSRichTextEditor.app"
+            BlueprintIdentifier = "574D4A5520CE1FF1007ED5F5"
+            BuildableName = "ZSSRichTextEditor.framework"
             BlueprintName = "ZSSRichTextEditor"
             ReferencedContainer = "container:ZSSRichTextEditor.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
